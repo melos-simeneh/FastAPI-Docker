@@ -5,3 +5,8 @@ The projects show how to dockerize the FastAPI application.
 - Docker Desktop installed
 - Python basics
 - FastAPI basics
+## Installation
+To build the docker image:
+```
+docker build -t fastapi-image .
+```
