@@ -10,7 +10,7 @@ To build the docker image:
 ```
 docker build -t fastapi-image .
 ```
-To start the docker image
+To start the docker image as a container
 ```
 docker run --name fastapi-container -p 8000:80 fastapi-image
 ```
